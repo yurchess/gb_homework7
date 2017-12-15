@@ -1,3 +1,10 @@
+/**
+ * Java 1. HomeWork #7. Feed the cats
+ * @author Yury Mitroshin
+ * @version dated Dec 15, 2017
+ * @link https://github.com/yurchess/gb_homework7
+ */
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -75,7 +82,7 @@ public class GameWindow {
     class FeedListener implements ActionListener {
         public void actionPerformed(ActionEvent event) {
             if (plate.getFoodAmount() > 0) {
-                for (Cat cat: cats)
+                for (Cat cat : cats)
                     if (cat.wantToEat())
                         cat.Eat(plate);
                 showCatsAppetites();
@@ -93,7 +100,7 @@ public class GameWindow {
 
     class StarveBtnListener implements ActionListener {
         public void actionPerformed(ActionEvent event) {
-            for (Cat cat: cats) {
+            for (Cat cat : cats) {
                 cat.starveTheCat();
             }
             showCatsAppetites();
