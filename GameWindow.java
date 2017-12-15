@@ -10,19 +10,19 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class GameWindow {
-    private final int PLATE_FOOD_CAPACITY = 1000;
-    private final int PLATE_INI_FOOD_AMOUNT = 300;
-    private final int WINDOW_LEFT = 200;
-    private final int WINDOW_TOP = 100;
-    private final int WINDOW_WIDTH = 400;
-    private final int WINDOW_HEIGHT = 500;
-    private final int CAT_MAX_APPETITE = 500;
-    private final int PLATE_FOOD_INCREMENT = 100;
-    private final int NUMBER_OF_CATS = 5;
-    private final String WINDOW_NAME = "Feed the Cat";
-    private final String BTN_STARVE_THE_CATS = "Starve the cats";
-    private final String BTN_ADD_FOOD = "Add food";
-    private final String BTN_FEED_THE_CAT = "Feed the Cat";
+    private static final int PLATE_FOOD_CAPACITY = 1000;
+    private static final int PLATE_INI_FOOD_AMOUNT = 300;
+    private static final int WINDOW_LEFT = 200;
+    private static final int WINDOW_TOP = 100;
+    private static final int WINDOW_WIDTH = 400;
+    private static final int WINDOW_HEIGHT = 500;
+    private static final int CAT_MAX_APPETITE = 500;
+    private static final int PLATE_FOOD_INCREMENT = 100;
+    private static final int NUMBER_OF_CATS = 5;
+    private static final String WINDOW_NAME = "Feed the Cat";
+    private static final String BTN_STARVE_THE_CATS = "Starve the cats";
+    private static final String BTN_ADD_FOOD = "Add food";
+    private static final String BTN_FEED_THE_CAT = "Feed the Cat";
 
     private Plate plate;
     private JProgressBar pb_Plate;
