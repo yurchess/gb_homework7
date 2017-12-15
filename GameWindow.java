@@ -1,6 +1,5 @@
 /**
  * Java 1. HomeWork #7. Feed the cats
- *
  * @author Yury Mitroshin
  * @version dated Dec 15, 2017
  * @link https://github.com/yurchess/gb_homework7
